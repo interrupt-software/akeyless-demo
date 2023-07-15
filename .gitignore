@@ -1,0 +1,12 @@
+# Terraform provier directory
+.terraform
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Local secrets in dev
+secrets
