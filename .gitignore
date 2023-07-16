@@ -4,9 +4,13 @@
 # Terraform state
 terraform.tfstate
 terraform.tfstate.backup
+.terraform.tfstate.lock
 
 # Terraform lock file
 .terraform.lock.hcl
 
 # Local secrets in dev
 secrets
+
+# SSH Keys
+key.pem
