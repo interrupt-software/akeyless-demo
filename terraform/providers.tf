@@ -4,6 +4,10 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
+    akeyless = {
+      version = ">= 1.0.0"
+      source  = "akeyless-community/akeyless"
+    }
   }
 }
 
@@ -11,16 +15,11 @@ provider "aws" {
   region = var.region
 }
 
-# data "aws_vpc" "current" {
-#   id = var.vpc_id
-# }
+provider "akeyless" {
+  api_gateway_address = "https://api.akeyless.io"
 
-resource "aws_vpc" "vpc" {
-  cidr_block           = var.vpc_cidr
-  enable_dns_hostnames = true
-
-  tags = {
-    name        = "${var.prefix}-vpc-${var.region}"
-    environment = "Demo"
+  email_login {
+    admin_email    = var.akeyless_admin_email
+    admin_password = var.akeyless_admin_password
   }
 }

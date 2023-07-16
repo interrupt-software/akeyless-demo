@@ -1,3 +1,13 @@
+resource "aws_vpc" "vpc" {
+  cidr_block           = var.vpc_cidr
+  enable_dns_hostnames = true
+
+  tags = {
+    name        = "${var.prefix}-vpc-${var.region}"
+    environment = "Demo"
+  }
+}
+
 resource "aws_subnet" "public" {
   vpc_id                  = aws_vpc.vpc.id
   cidr_block              = var.public_subnets_cidr
@@ -104,7 +114,7 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_eip" "trendy-tabby" {
   instance = aws_instance.trendy-tabby.id
-  domain      = "standard"
+  domain   = "standard"
 }
 
 resource "aws_eip_association" "trendy-tabby" {
@@ -204,7 +214,7 @@ resource "tls_private_key" "trendy-tabby" {
 
 locals {
   private_key_filename = "key.pem"
-  public_key_filename = "pub_key.pem"
+  public_key_filename  = "pub_key.pem"
 }
 
 resource "aws_key_pair" "trendy-tabby" {

@@ -1,6 +1,6 @@
 variable "project-name" {
-  type = string
-  default = "trendy-tabby"  
+  type    = string
+  default = "trendy-tabby"
 }
 
 variable "prefix" {
@@ -43,5 +43,10 @@ variable "database_password" {
   default   = "correct-horse-battery-staple"
 }
 
-# variable "vpc_id" {
-# }
+variable "akeyless_admin_email" {
+  sensitive = true
+}
+
+variable "akeyless_admin_password" {
+  sensitive = true
+}
