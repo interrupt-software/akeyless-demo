@@ -1,4 +1,4 @@
 #!/bin/bash
-BASE=/home/vagrant
+BASE=./
 PYSOURCE=${BASE}/middleware/listener.py
 /usr/bin/python ${PYSOURCE} 2>&1 &

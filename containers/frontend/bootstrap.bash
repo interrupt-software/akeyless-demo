@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE=/home/vagrant
+BASE=./
 FLASK_APP=frontend.py
 cd ${BASE}/app
 python3 -m venv venv
