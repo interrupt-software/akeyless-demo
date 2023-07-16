@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+<title>Launch Data</title>
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+      {% for message in messages %}
+          {{ message[1] }}
+      {% endfor %}
+  {% endif %}
+{% endwith %}
+
+<div id="main">
+  <div class="inner">
+  <!-- Boxes -->
+    <!-- <div class="thumbnails"> -->
+
+<div class="box">
+  <div class="inner">
+
+<form action="" method="post" role="form">
+    <!-- &#123; &#123; form.csrf &#125;&#125; -->
+    {{ form.hidden_tag() }}
+    <div class="input text">
+        {{ form.name.label }} {{ form.name }}
+    </div>
+    <div class="button submit fit">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</div>
+</div>
+</div>
+<!-- </div> -->
+
+</div>
+
+{% endblock %}

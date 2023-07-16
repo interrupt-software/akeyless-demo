@@ -38,6 +38,13 @@ resource "aws_security_group" "trendy-tabby" {
   }
 
   ingress {
+    from_port   = 8000
+    to_port     = 8000
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  ingress {
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
@@ -197,6 +204,7 @@ resource "tls_private_key" "trendy-tabby" {
 
 locals {
   private_key_filename = "key.pem"
+  public_key_filename = "pub_key.pem"
 }
 
 resource "aws_key_pair" "trendy-tabby" {
@@ -207,6 +215,10 @@ resource "aws_key_pair" "trendy-tabby" {
 resource "null_resource" "tls_private_key" {
   provisioner "local-exec" {
     command = "echo \"${tls_private_key.trendy-tabby.private_key_openssh}\" > ${local.private_key_filename}"
+  }
+
+  provisioner "local-exec" {
+    command = "echo \"${tls_private_key.trendy-tabby.public_key_pem}\" > ${local.public_key_filename}"
   }
 
   provisioner "local-exec" {

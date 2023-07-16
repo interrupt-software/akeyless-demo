@@ -12,5 +12,7 @@ terraform.tfstate.backup
 # Local secrets in dev
 secrets
 
-# SSH Keys
-key.pem
+# SSH/SSL Material
+*.pem
+*.crt
+*.pub

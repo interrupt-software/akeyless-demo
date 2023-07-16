@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+#l:before, #r:before {
+  content: "";
+  width: 125px;
+  height: 250px;
+}
+#l:before {
+  float: right;
+}
+#r:before {
+  float: left;
+}
+
+</style>
+
+{% block body %}
+
+<!-- Main -->
+  <div id="main">
+    <div class="inner">
+    <!-- Boxes -->
+      <div class="thumbnails">
+
+        <div class="box">
+          <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="/static/images/pic01.jpg" alt="" /></a>
+          <div class="inner">
+            <h3>Dynamic Credentials</h3>
+            <p>Since every service is accessing the database with unique credentials, it makes auditing much easier when questionable data access is discovered. You can track it down to the specific instance of a service based on the SQL username.</p>
+            <a href="/query" class="button fit" data-poptrox="youtube,800x400">Show</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="/static/images/pic02.jpg" alt="" /></a>
+          <div class="inner">
+            <h3>Signed Certificates</h3>
+            <p>The signed SSH certificates is the simplest and most powerful in terms of setup complexity and in terms of being platform agnostic. It is also possible to automate these actions using a configuration management tool like Chef, Puppet, Ansible, or Salt.</p>
+            <a href="/template" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="/static/images/pic03.jpg" alt="" /></a>
+          <div class="inner">
+            <h3>Using API Libraries</h3>
+            <p>API Libraries allow for infuson of capabilities to secret chain.</p>
+            <a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}
