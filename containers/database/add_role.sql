@@ -1,0 +1,2 @@
+CREATE ROLE vagrant LOGIN;
+
