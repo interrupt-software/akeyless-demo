@@ -8,15 +8,17 @@ import sys
 
 access_id = None
 access_key = None
+akeyless_host = None
 
 try:
-  access_id  = os.environ["AKEYLESS_ACCESS_ID"] 
-  access_key = os.environ["AKEYLESS_ACCESS_KEY"]
+  access_id     = os.environ["AKEYLESS_ACCESS_ID"] 
+  access_key    = os.environ["AKEYLESS_ACCESS_KEY"]
+  akeyless_host = os.environ["AKEYLESS_HOST"]
 except:
-   print("Cannot find environment credentials.")
+   print("Cannot find environment information.")
 
 configuration = akeyless.Configuration(
-        host = "https://api.akeyless.io"
+        host = akeyless_host or "https://api.akeyless.io"
 )
 
 api_client = akeyless.ApiClient(configuration)

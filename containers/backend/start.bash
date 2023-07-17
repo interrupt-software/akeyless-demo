@@ -3,7 +3,7 @@ app="backend"
 POSTGRES_HOST=$(docker inspect -f "{{ .NetworkSettings.IPAddress }}" postgres)
 POSTGRES_USER="postgres"
 POSTGRES_PW="mysecretpassword"
-POSTGRES_DB="dvdrental"
+POSTGRES_DB="postgres"
 
 docker build -t ${app} .
 docker run -d \
