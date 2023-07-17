@@ -4,24 +4,26 @@ if sys.version_info[0] == 2:
     import ConfigParser as configparser
 else:
     import configparser
+import akeyless
+from akeyless_client import dynamic_db_creds
 
 dbcreds  = None
 creds    = None
 user     = None
 password = None
 
-dbcreds_source = 'dbcreds'
+try: 
+  dbcreds = dynamic_db_creds()
+except:
+  print("Exception in reading dynamic secrets.")
 
-if os.path.isfile(dbcreds_source):
-    dbcreds  = open(dbcreds_source, 'r')
-
-if dbcreds is not None:
-    creds    = dbcreds.readlines()
-    user     = creds[0] or os.environ["POSTGRES_USER"]
-    password = creds[1] or os.environ["POSTGRES_PW"]
-else:
+if dbcreds is None:
     user     = os.environ["POSTGRES_USER"]
     password = os.environ["POSTGRES_PW"]
+else:
+    creds    = dynamic_db_creds()
+    user     = creds["user"]
+    password = creds["password"]
 
 db_ini = {
     "host"     : os.environ["POSTGRES_ADDR"],

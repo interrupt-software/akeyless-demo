@@ -16,3 +16,6 @@ secrets
 *.pem
 *.crt
 *.pub
+
+# Compiled Python3
+*.pyc
