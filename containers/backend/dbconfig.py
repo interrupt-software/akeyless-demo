@@ -38,3 +38,8 @@ def dbconfig(params=db_ini):
         db[param] = params[param]
 
     return db
+
+# We are including a main module for demo purposes only
+if __name__ == "__main__":
+    print(dbconfig())
+    
