@@ -1,10 +1,13 @@
 # akeyless-demo
 
 ## Authenticate using a static role
-```
+```bash
 akeyless auth
 Access Id: p-abcdefghi9jk
 Access Key: 
+```
+The process returns a bearer token. 
+```bash
 Authentication succeeded.
 Token: t-12345a67bc8901defa23b45cd6e78f9a
 ```
