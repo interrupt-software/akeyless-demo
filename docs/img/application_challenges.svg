@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="990x" height="497px" viewBox="0 0 3840 2160" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path
+            d="M20,27 L294,27 L294,27 L315,0 L336,27 L400,27 C411.045695,27 420,35.954305 420,47 L420,227 C420,238.045695 411.045695,247 400,247 L20,247 C8.954305,247 1.3527075e-15,238.045695 0,227 L0,47 C2.20000618e-15,35.954305 8.954305,27 20,27 Z"
+            id="path-1"></path>
+        <filter x="-1.2%" y="-2.3%" width="104.8%" height="108.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,27 L308,27 L308,27 L330,0 L352,27 L420,27 C431.045695,27 440,35.954305 440,47 L440,227 C440,238.045695 431.045695,247 420,247 L20,247 C8.954305,247 8.45813486e-15,238.045695 0,227 L0,47 C-4.90542118e-15,35.954305 8.954305,27 20,27 Z"
+            id="path-3"></path>
+        <filter x="-1.1%" y="-2.3%" width="104.5%" height="108.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,20 L75,20 L75,20 L100,0 L125,20 L480,20 C491.045695,20 500,28.954305 500,40 L500,220 C500,231.045695 491.045695,240 480,240 L20,240 C8.954305,240 -1.28581472e-14,231.045695 0,220 L0,40 C-1.3527075e-15,28.954305 8.954305,20 20,20 Z"
+            id="path-5"></path>
+        <filter x="-1.0%" y="-2.2%" width="104.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,20 L60,20 L60,20 L80,0 L100,20 L380,20 C391.045695,20 400,28.954305 400,40 L400,220 C400,231.045695 391.045695,240 380,240 L20,240 C8.954305,240 -2.20000618e-15,231.045695 0,220 L0,40 C-1.3527075e-15,28.954305 8.954305,20 20,20 Z"
+            id="path-7"></path>
+        <filter x="-1.3%" y="-2.3%" width="105.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,20 L60,20 L60,20 L80,0 L100,20 L380,20 C391.045695,20 400,28.954305 400,40 L400,220 C400,231.045695 391.045695,240 380,240 L20,240 C8.954305,240 -2.20000618e-15,231.045695 0,220 L0,40 C-1.3527075e-15,28.954305 8.954305,20 20,20 Z"
+            id="path-9"></path>
+        <filter x="-1.3%" y="-2.3%" width="105.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,20 L60,20 L60,20 L80,0 L100,20 L380,20 C391.045695,20 400,28.954305 400,40 L400,220 C400,231.045695 391.045695,240 380,240 L20,240 C8.954305,240 -2.20000618e-15,231.045695 0,220 L0,40 C-1.3527075e-15,28.954305 8.954305,20 20,20 Z"
+            id="path-11"></path>
+        <filter x="-1.3%" y="-2.3%" width="105.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,20 L140,20 L140,20 L160,0 L180,20 L380,20 C391.045695,20 400,28.954305 400,40 L400,220 C400,231.045695 391.045695,240 380,240 L20,240 C8.954305,240 -2.20000618e-15,231.045695 0,220 L0,40 C-1.3527075e-15,28.954305 8.954305,20 20,20 Z"
+            id="path-13"></path>
+        <filter x="-3.8%" y="-6.4%" width="105.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-5" dy="-5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path
+            d="M20,19 L301,19 L301,19 L321,0 L341,20 L379.661066,19.3447277 C390.705174,19.1575394 399.80994,27.9588124 399.997128,39.0029212 C399.999043,39.1158892 400,39.2288714 400,39.3418556 L400,219 C400,230.045695 391.045695,239 380,239 L20,239 C8.954305,239 -1.51693386e-13,230.045695 -1.4949338e-13,219 L-1.4949338e-13,39 C-1.50846087e-13,27.954305 8.954305,19 20,19 Z"
+            id="path-15"></path>
+        <filter x="-3.8%" y="-6.4%" width="105.0%" height="108.5%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-5" dy="-5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.850980392   0 0 0 0 0.905882353  0 0 0 1 0"
+                type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Problem---Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="1440" y1="320" x2="1440" y2="1420" id="Line-17" stroke="#E5E6EB" stroke-width="10"
+            opacity="0.501023065" stroke-linecap="square" stroke-dasharray="10,20"></line>
+        <line x1="1534.625" y1="1433.875" x2="1345.875" y2="1433.625" id="Line-17" stroke="#E5E6EB" stroke-width="10"
+            opacity="0.501023065" stroke-linecap="square" stroke-dasharray="10,20"></line>
+        <rect id="Rectangle" stroke="#E5E6EB" fill="#F7F8FA" x="320.5" y="480.5" width="959" height="959"></rect>
+        <rect id="Rectangle" stroke="#E5E6EB" fill="#F7F8FA" x="1600.5" y="480.5" width="479" height="959"></rect>
+        <rect id="Rectangle" stroke="#E5E6EB" stroke-width="2" fill="#F7F8FA" x="2401" y="481" width="478" height="958">
+        </rect>
+        <rect id="Rectangle" stroke="#E5E6EB" fill="#F7F8FA" x="3200.5" y="480.5" width="479" height="959"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="490" y="600" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="140" y="600" width="119" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#CA2171" stroke-width="6" fill="#FFFFFF" x="569" y="1240" width="142" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="909" y="1240" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="910" y="910" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="1690" y="600" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="1689" y="912" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="2490" y="600" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="2490" y="910" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="3290" y="599" width="300" height="100"
+            rx="8"></rect>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF" x="2490" y="1238" width="300" height="100"
+            rx="8"></rect>
+        <circle id="Oval" stroke="#CA2171" stroke-width="6" fill="#FFFFFF" cx="430" cy="960" r="50"></circle>
+        <circle id="Oval" stroke="#CA2171" stroke-width="6" fill="#FFFFFF" cx="640" cy="1185" r="25"></circle>
+        <rect id="Rectangle" stroke="#4E515D" stroke-width="6" fill="#FFFFFF"
+            transform="translate(640, 960) rotate(45) translate(-640, -960)" x="590" y="910" width="100" height="100">
+        </rect>
+        <path id="Line-4"
+            d="M871.423704,946.150948 L900.499993,960.497355 L871.577094,975.150543 L871.513,963.15 L809.96033,963.47629 C805.833736,963.498117 802.5,966.849533 802.5,970.976185 L802.5,1279.02382 C802.5,1283.15047 805.833736,1286.50188 809.96033,1286.52371 L871.513,1286.849 L871.577094,1274.84946 L900.499993,1289.50264 L871.423704,1303.84905 L871.487,1291.849 L809.933884,1291.52364 C803.056226,1291.48726 797.5,1285.90157 797.5,1279.02382 L797.5,970.976185 C797.5,964.098432 803.056226,958.512738 809.933884,958.47636 L871.487,958.15 L871.423704,946.150948 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-2"
+            d="M517.609853,945.717973 L517.518,957.717 L554.519083,958.000073 L557.019011,958.019156 L556.980844,963.019011 L554.480917,962.999927 L517.479,962.717 L517.388486,974.717128 L488.500015,959.996183 L517.609853,945.717973 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <line x1="723.5" y1="960.5" x2="891.5" y2="960.5" id="Line-5" stroke="#66A2FF" stroke-width="5" fill="#66A2FF"
+            stroke-linecap="square"></line>
+        <path id="Line-7"
+            d="M2456.40713,636.687567 L2480.5,648.5 L2456.59433,660.686837 L2456.516,650.687 L2169.9376,652.922544 C2165.5438,652.956817 2162,656.528373 2162,660.922301 L2162,950.031299 C2162,956.64403 2156.65032,962.01051 2150.03762,962.03124 L2000.50627,962.49999 L1998.50628,962.50626 L1998.49374,958.506279 L2000.49373,958.50001 L2150.02508,958.03126 C2154.43354,958.01744 2158,954.439786 2158,950.031299 L2158,660.922301 C2158,654.331408 2163.31571,648.974076 2169.9064,648.922666 L2456.485,646.687 L2456.40713,636.687567 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-7"
+            d="M3252.41021,634.677848 L3281.49999,648.996885 L3252.59089,663.677285 L3252.516,651.677 L2969.95327,653.438034 C2965.82945,653.463728 2962.5,656.81399 2962.5,660.937889 L2962.5,950.061538 C2962.5,956.934984 2956.95047,962.518872 2950.07716,962.5613 L2798.01543,963.499952 L2795.51548,963.515384 L2795.48462,958.515479 L2797.98457,958.500048 L2950.0463,957.561395 C2954.17028,957.535938 2957.5,954.185605 2957.5,950.061538 L2957.5,660.937889 C2957.5,654.064724 2963.04909,648.480954 2969.92212,648.438131 L3252.484,646.677 L3252.41021,634.677848 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-12"
+            d="M1062,1212 L1062,1227 L1057,1227 L1057,1212 L1062,1212 Z M1062,1192 L1062,1207 L1057,1207 L1057,1192 L1062,1192 Z M1062,1172 L1062,1187 L1057,1187 L1057,1172 L1062,1172 Z M1062,1152 L1062,1167 L1057,1167 L1057,1152 L1062,1152 Z M1062,1132 L1062,1147 L1057,1147 L1057,1132 L1062,1132 Z M1062,1112 L1062,1127 L1057,1127 L1057,1112 L1062,1112 Z M1062,1092 L1062,1107 L1057,1107 L1057,1092 L1062,1092 Z M1062,1072 L1062,1087 L1057,1087 L1057,1072 L1062,1072 Z M1059.5,1030 L1074,1059 L1062,1059 L1062,1067 L1057,1067 L1057,1059 L1045,1059 L1059.5,1030 Z"
+            fill="#6BD8B4" fill-rule="nonzero"></path>
+        <path id="Line"
+            d="M308.537566,633.574075 L308.506,645.574 L444.006,645.925 L444.037758,633.926023 L472.999998,648.501299 L443.962434,662.925925 L443.993,650.925 L308.493,650.574 L308.462242,662.573977 L279.500002,647.998701 L308.537566,633.574075 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-7"
+            d="M1841.9931,711.993122 L1841.99999,714.493113 L1842.421,867.493 L1854.42143,867.460163 L1840.00138,896.499998 L1825.42154,867.540053 L1837.421,867.507 L1837.00001,714.506887 L1836.99312,712.006897 L1841.9931,711.993122 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-8" d="M2642,712 L2642,868 L2654,868 L2639.5,897 L2625,868 L2637,868 L2637,712 L2642,712 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-6"
+            d="M642.5,709.5 L642.5,842.5 L654.5,842.5 L640,871.5 L625.5,842.5 L637.5,842.5 L637.5,709.5 L642.5,709.5 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-3"
+            d="M642.5,1046.5 L642.5,1114.5 L654.5,1114.5 L640,1143.5 L625.5,1114.5 L637.5,1114.5 L637.5,1046.5 L642.5,1046.5 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M2641,1029 L2641,1197 L2651,1197 L2639,1221 L2627,1197 L2637,1197 L2637,1029 L2641,1029 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <rect id="Rectangle" stroke="#F7F8FA" fill="#E5E6EB" x="320.5" y="320.5" width="959" height="159"></rect>
+        <rect id="Rectangle" stroke="#F7F8FA" fill="#E5E6EB" x="2400.5" y="320.5" width="479" height="159"></rect>
+        <rect id="Rectangle" stroke="#F7F8FA" fill="#E5E6EB" x="1600.5" y="320.5" width="479" height="159"></rect>
+        <rect id="Rectangle" stroke="#F7F8FA" fill="#E5E6EB" x="3200.5" y="320.5" width="479" height="159"></rect>
+        <text id="FRONT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="60" font-weight="bold"
+            letter-spacing="-0.12" fill="#373942">
+            <tspan x="696.95" y="404">FRONT</tspan>
+        </text>
+        <g id="Group" transform="translate(770, 930)">
+            <circle id="Oval" stroke="#F7F8FA" stroke-width="6" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+            <circle id="Oval" stroke="#6BD8B4" stroke-width="6" fill="#FFFFFF" cx="30" cy="30" r="25"></circle>
+            <line x1="38.25" y1="21" x2="28.75" y2="39.5" id="Line-15" stroke="#6BD8B4" stroke-width="5"
+                stroke-linecap="square"></line>
+            <line x1="21" y1="34.75" x2="28.5" y2="39.25" id="Line-15" stroke="#6BD8B4" stroke-width="5"
+                stroke-linecap="square"></line>
+        </g>
+        <text id="MIDDLE" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="60" font-weight="bold"
+            letter-spacing="-0.12" fill="#373942">
+            <tspan x="1722.61" y="404">MIDDLE</tspan>
+        </text>
+        <text id="BACK" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="60" font-weight="bold"
+            letter-spacing="-0.12" fill="#373942">
+            <tspan x="2554.68" y="404">BACK</tspan>
+        </text>
+        <text id="DATA" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="60" font-weight="bold"
+            letter-spacing="-0.12" fill="#373942">
+            <tspan x="3364.1" y="404">DATA</tspan>
+        </text>
+        <text id="UI" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="187.116" y="643">UI</tspan>
+        </text>
+        <text id="ROUTER" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="589.98" y="643">ROUTER</tspan>
+        </text>
+        <text id="CLIENT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="1017.596" y="953">CLIENT</tspan>
+        </text>
+        <text id="API-LIBRARY" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="984.952" y="1283">API LIBRARY</tspan>
+        </text>
+        <text id="LISTENER" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="1781.308" y="644">LISTENER</tspan>
+        </text>
+        <text id="LISTENER" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="2581.308" y="644">LISTENER</tspan>
+        </text>
+        <text id="CLIENT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="1796.596" y="955">CLIENT</tspan>
+        </text>
+        <text id="DB-CONNECTOR" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="2541.6" y="954">DB CONNECTOR</tspan>
+        </text>
+        <text id="DATABASE" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="3377.504" y="644">DATABASE</tspan>
+        </text>
+        <text id="DB-CONFIG" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="2572.656" y="1284">DB CONFIG</tspan>
+        </text>
+        <text id="OP" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="622.708" y="953">OP</tspan>
+        </text>
+        <text id="E" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#CA2171">
+            <tspan x="422.248" y="953">E</tspan>
+        </text>
+        <text id="404" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#CA2171">
+            <tspan x="620.056" y="1283">404</tspan>
+        </text>
+        <path id="Line-14"
+            d="M530.941357,1276.59325 L559.999996,1290.97538 L531.059113,1305.59301 L531.01,1293.592 L529.198732,1293.60047 L526.698753,1293.61062 L526.67845,1288.61066 L529.17843,1288.60051 L530.99,1288.592 L530.941357,1276.59325 Z M432.872456,1282.12454 L433.865129,1284.41901 C434.885742,1286.77807 437.059052,1288.47499 439.61102,1288.87035 L442.081548,1289.2531 L441.316063,1294.19415 L438.845535,1293.81141 C434.586851,1293.15164 430.975316,1290.33175 429.276185,1286.40436 L428.283512,1284.10989 L432.872456,1282.12454 Z M461.678986,1288.87459 L461.699289,1293.87455 L459.19931,1293.8847 L449.199392,1293.92531 L446.699413,1293.93546 L446.67911,1288.9355 L449.179089,1288.92535 L459.179007,1288.88474 L461.678986,1288.87459 Z M481.678821,1288.79338 L481.699124,1293.79334 L479.199145,1293.80349 L469.199227,1293.8441 L466.699248,1293.85425 L466.678945,1288.85429 L469.178924,1288.84414 L479.178842,1288.80353 L481.678821,1288.79338 Z M501.678657,1288.71217 L501.698959,1293.71213 L499.19898,1293.72228 L489.199062,1293.76289 L486.699083,1293.77304 L486.67878,1288.77308 L489.17876,1288.76293 L501.678657,1288.71217 Z M521.678492,1288.63096 L521.698794,1293.63092 L519.198815,1293.64107 L506.698918,1293.69183 L506.678615,1288.69187 L519.178512,1288.64111 L521.678492,1288.63096 Z M433.160671,1262.98495 L433.172888,1265.48492 L433.22176,1275.4848 L433.233978,1277.98477 L428.234038,1278.0092 L428.22182,1275.50923 L428.172948,1265.50935 L428.16073,1263.00938 L433.160671,1262.98495 Z M433.062927,1242.98518 L433.075145,1245.48515 L433.124017,1255.48504 L433.136235,1257.98501 L428.136294,1258.00944 L428.124077,1255.50947 L428.075205,1245.50959 L428.062987,1243.00962 L433.062927,1242.98518 Z M432.965184,1222.98542 L432.977402,1225.48539 L433.026274,1235.48527 L433.038492,1237.98524 L428.038551,1238.00968 L428.026333,1235.50971 L427.977462,1225.50983 L427.965244,1223.00986 L432.965184,1222.98542 Z M432.867441,1202.98566 L432.879659,1205.48563 L432.92853,1215.48551 L432.940748,1217.98548 L427.940808,1218.00992 L427.92859,1215.50995 L427.879719,1205.51007 L427.867501,1203.0101 L432.867441,1202.98566 Z M432.769698,1182.9859 L432.781916,1185.48587 L432.830787,1195.48575 L432.843005,1197.98572 L427.843065,1198.01016 L427.830847,1195.51019 L427.781975,1185.51031 L427.769758,1183.01034 L432.769698,1182.9859 Z M432.671955,1162.98614 L432.684172,1165.48611 L432.733044,1175.48599 L432.745262,1177.98596 L427.745322,1178.0104 L427.733104,1175.51043 L427.684232,1165.51055 L427.672014,1163.01058 L432.671955,1162.98614 Z M432.574211,1142.98638 L432.586429,1145.48635 L432.635301,1155.48623 L432.647519,1157.9862 L427.647579,1158.01064 L427.635361,1155.51067 L427.586489,1145.51078 L427.574271,1143.01081 L432.574211,1142.98638 Z M432.476468,1122.98662 L432.488686,1125.48659 L432.537558,1135.48647 L432.549776,1137.98644 L427.549835,1138.01087 L427.537617,1135.5109 L427.488746,1125.51102 L427.476528,1123.01105 L432.476468,1122.98662 Z M432.378725,1102.98686 L432.390943,1105.48683 L432.439815,1115.48671 L432.452032,1117.98668 L427.452092,1118.01111 L427.439874,1115.51114 L427.391003,1105.51126 L427.378785,1103.01129 L432.378725,1102.98686 Z M432.280982,1082.9871 L432.2932,1085.48707 L432.342071,1095.48695 L432.354289,1097.98692 L427.354349,1098.01135 L427.342131,1095.51138 L427.293259,1085.5115 L427.281042,1083.01153 L432.280982,1082.9871 Z M432.183239,1062.98733 L432.195457,1065.4873 L432.244328,1075.48718 L432.256546,1077.98716 L427.256606,1078.01159 L427.244388,1075.51162 L427.195516,1065.51174 L427.183298,1063.01177 L432.183239,1062.98733 Z M432.085495,1042.98757 L432.097713,1045.48754 L432.146585,1055.48742 L432.158803,1057.98739 L427.158863,1058.01183 L427.146645,1055.51186 L427.097773,1045.51198 L427.085555,1043.01201 L432.085495,1042.98757 Z M431.987752,1022.98781 L431.99997,1025.48778 L432.048842,1035.48766 L432.06106,1037.98763 L427.061119,1038.01207 L427.048901,1035.5121 L427.00003,1025.51222 L426.987812,1023.01225 L431.987752,1022.98781 Z"
+            fill="#CA2171" fill-rule="nonzero"></path>
+        <line x1="630.5" y1="1175.5" x2="650" y2="1194" id="Line-16" stroke="#CA2171" stroke-width="5"
+            stroke-linecap="square"></line>
+        <line x1="630.75" y1="1193.75" x2="649.75" y2="1175.75" id="Line-16" stroke="#CA2171" stroke-width="5"
+            stroke-linecap="square"></line>
+        <path id="Line-7"
+            d="M1650.97734,635.044619 L1680,649.499218 L1651.02273,664.044583 L1651.003,652.044 L1369.98826,652.484372 C1365.85072,652.490847 1362.5,655.84681 1362.5,659.984363 L1362.5,950.035524 C1362.5,956.921718 1356.93063,962.510939 1350.04448,962.535445 L1219.5089,962.999984 L1217.00891,963.008881 L1216.99112,958.008913 L1219.4911,958.000016 L1350.02669,957.535476 C1354.15838,957.520773 1357.5,954.16724 1357.5,950.035524 L1357.5,659.984363 C1357.5,653.088442 1363.08453,647.49517 1369.98044,647.484378 L1650.996,647.044 L1650.97734,635.044619 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <text id="DMZ" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold"
+            letter-spacing="-0.048" fill="#373942">
+            <tspan x="1412.52" y="1470">DMZ</tspan>
+        </text>
+        <path id="Line-6"
+            d="M1070.5,889.390848 L1070.5,901.5 L1065.5,901.5 L1065.5,889.390848 L1070.5,889.390848 Z M1070.5,869.390848 L1070.5,884.390848 L1065.5,884.390848 L1065.5,869.390848 L1070.5,869.390848 Z M1070.5,849.390848 L1070.5,864.390848 L1065.5,864.390848 L1065.5,849.390848 L1070.5,849.390848 Z M1070.5,829.390848 L1070.5,844.390848 L1065.5,844.390848 L1065.5,829.390848 L1070.5,829.390848 Z M1070.5,809.390848 L1070.5,824.390848 L1065.5,824.390848 L1065.5,809.390848 L1070.5,809.390848 Z M1070.5,789.390848 L1070.5,804.390848 L1065.5,804.390848 L1065.5,789.390848 L1070.5,789.390848 Z M1070.5,769.390848 L1070.5,784.390848 L1065.5,784.390848 L1065.5,769.390848 L1070.5,769.390848 Z M1070.5,749.390848 L1070.5,764.390848 L1065.5,764.390848 L1065.5,749.390848 L1070.5,749.390848 Z M1070.5,729.390848 L1070.5,744.390848 L1065.5,744.390848 L1065.5,729.390848 L1070.5,729.390848 Z M1070.5,709.390848 L1070.5,724.390848 L1065.5,724.390848 L1065.5,709.390848 L1070.5,709.390848 Z M1070.5,689.390848 L1070.5,704.390848 L1065.5,704.390848 L1065.5,689.390848 L1070.5,689.390848 Z M1070.5,669.390848 L1070.5,684.390848 L1065.5,684.390848 L1065.5,669.390848 L1070.5,669.390848 Z M828,635.5 L828,647.5 L838,647.5 L838,652.5 L828,652.5 L828,664.5 L799,650 L828,635.5 Z M1064.73887,649.178815 L1066.56037,650.891164 C1069.05583,653.23709 1070.5,656.50607 1070.5,660 L1070.5,664.390848 L1065.5,664.390848 L1065.5,660 C1065.5,657.900213 1064.63607,655.944662 1063.13567,654.534162 L1061.31417,652.821812 L1064.73887,649.178815 Z M858,647.5 L858,652.5 L843,652.5 L843,647.5 L858,647.5 Z M878,647.5 L878,652.5 L863,652.5 L863,647.5 L878,647.5 Z M898,647.5 L898,652.5 L883,652.5 L883,647.5 L898,647.5 Z M918,647.5 L918,652.5 L903,652.5 L903,647.5 L918,647.5 Z M938,647.5 L938,652.5 L923,652.5 L923,647.5 L938,647.5 Z M958,647.5 L958,652.5 L943,652.5 L943,647.5 L958,647.5 Z M978,647.5 L978,652.5 L963,652.5 L963,647.5 L978,647.5 Z M998,647.5 L998,652.5 L983,652.5 L983,647.5 L998,647.5 Z M1018,647.5 L1018,652.5 L1003,652.5 L1003,647.5 L1018,647.5 Z M1038,647.5 L1038,652.5 L1023,652.5 L1023,647.5 L1038,647.5 Z M1058,647.5 L1058,652.5 L1043,652.5 L1043,647.5 L1058,647.5 Z"
+            fill="#66A2FF" fill-rule="nonzero"></path>
+        <g id="Group-2" transform="translate(740, 1370)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="Are-the-API-secrets" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="45.502" y="65">Are the API secrets </tspan>
+                <tspan x="46.852" y="108">hard-coded, or in a </tspan>
+                <tspan x="75.13" y="151">local trust store</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(2310, 1400)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <text id="Are-the-DB-connectio" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="127.16" y="65">Are the DB </tspan>
+                <tspan x="60.164" y="108">connection strings </tspan>
+                <tspan x="56.852" y="151">hard-coded, or in a </tspan>
+                <tspan x="85.13" y="194">local trust store</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(1350, 1504)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <text id="Is-this-a-security-b" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="110.68" y="84">Is this a security </tspan>
+                <tspan x="28.546" y="127">boundary for host-to-host </tspan>
+                <tspan x="134.764" y="170">connections? </tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(2560, 1680)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <text id="How-often-do-we-rota" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="55.226" y="84">How often do we </tspan>
+                <tspan x="86.096" y="127">rotate the DB </tspan>
+                <tspan x="95.456" y="170">credentials? </tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(3362, 752)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-9"></use>
+            </g>
+            <text id="How-often-do-we-rota" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="55.226" y="84">How often do we </tspan>
+                <tspan x="38.63" y="127">rotate the DB user </tspan>
+                <tspan x="95.456" y="170">credentials? </tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(1760, 1080)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-11"></use>
+            </g>
+            <text id="How-does-the-client" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36"
+                font-weight="bold" letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="30.386" y="84">How does the client </tspan>
+                <tspan x="63.992" y="127">identify with the </tspan>
+                <tspan x="40.682" y="170">back-end listener? </tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(340, 480) rotate(-180) translate(-340, -480)translate(140, 360)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-13"></use>
+            </g>
+            <text id="How-does-the-UI-iden" transform="translate(200, 129) rotate(-180) translate(-200, -129)"
+                font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36" font-weight="bold"
+                letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="58.556" y="84">How does the UI </tspan>
+                <tspan x="63.992" y="127">identify with the </tspan>
+                <tspan x="53.57" y="170">front-end router? </tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(1481, 480.5) rotate(-180) translate(-1481, -480.5)translate(1281, 361)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                <use fill="#8E134A" fill-rule="evenodd" xlink:href="#path-15"></use>
+            </g>
+            <text id="How-does-the-client" transform="translate(200, 128) rotate(-180) translate(-200, -128)"
+                font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36" font-weight="bold"
+                letter-spacing="-0.072" fill="#F7F8FA">
+                <tspan x="30.386" y="83">How does the client </tspan>
+                <tspan x="63.992" y="126">identify with the </tspan>
+                <tspan x="22.16" y="169">middleware listener? </tspan>
+            </text>
+        </g>
+    </g>
+</svg>
