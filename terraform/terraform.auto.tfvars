@@ -1,1 +1,0 @@
-project-name = "trendy-tabby"
