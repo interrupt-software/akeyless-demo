@@ -96,6 +96,11 @@ python3 containers/backend/dbconfig.py
 
 The module returns a message similar to the following:
 
-```
-{'host': '127.0.0.1', 'user': 'tmp_trendy-tabbytr_p-zyxhgfmlk0zu_Wtfo0', 'password': 'YX4Z=Fx04=jG/V%x', 'dbname': 'postgres'}
+```json
+{
+  "host": "127.0.0.1",
+  "user": "tmp_trendy-tabbytr_p-zyxhgfmlk0zu_Wtfo0",
+  "password": "YX4Z=Fx04=jG/V%x",
+  "dbname": "postgres"
+}
 ```
